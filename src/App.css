@@ -1,38 +1,93 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+a{
+  color: black !important;
+}
+.nav-wrapper{
+  background-color: white !important;
+}
+
+.brand-logo{
+  font-family: 'Grand Hotel', cursive;
+}
+.mycard,h2{
+  font-family: 'Grand Hotel', cursive;
+}
+.mycard{
+  margin-top:30px ;
+}
+.auth-card
+{
+  padding: 20px;
+  margin: 10px auto;
   text-align: center;
+  max-width: 400px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.auth-card i
+{
+  margin-left: -30px;
+  cursor: pointer;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(37, 192, 197) !important;
+  box-shadow: 0 1px 0 0 rgb(46, 176, 185) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.galary{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item{
+  width: 30%;
+  margin: 5px;
+  padding: 5px;
+}
+.home{
+  max-width: 500px;
+  height: max-content;
+  margin: 20px auto;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  height: 100%;
+  align-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image_outer_container{
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  position: relative;
+}
+
+.image_inner_container{
+  border-radius: 50%;
+  padding: 5px;
+ background: #833ab4; 
+ background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4); 
+ background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+}
+.image_inner_container img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.image_outer_container .green_icon{
+  background-color: #4cd137;
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+  height: 30px;
+  width: 30px;
+  border:5px solid white;
+  border-radius: 50%;
+}
+
+#toast-container{
+  top:30px !important;
+  right:20px !important;
+  left: auto !important;
 }
