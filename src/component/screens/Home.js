@@ -9,7 +9,7 @@ const Home = () => {
             console.log(data)
             // setData(result.post)
         })
-    }, [])
+    }, [])//this is comment
     return (
         <div className="home">
             {

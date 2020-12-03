@@ -15,7 +15,7 @@ import M from 'materialize-css';
         //     headers: { 'Content-Type': 'application/json' },
         //     body: JSON.stringify({name:name,email:email,password:password})
         // };
-    
+    //this is comment
      const Postdata =()=>{
          if(!re.test(email)){
           M.toast({html: 'Please Give Valid Email !', classes: '#f44336 red darken-6'})

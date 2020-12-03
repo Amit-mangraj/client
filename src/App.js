@@ -9,7 +9,7 @@ import Createpost from './component/screens/Createpost'
 import './App.css';
 import { initialstate, reducer } from './reducers/userReducers'
 export const Usercontext = createContext()
-
+//this is comment
  const Routing = () => {
   const history= useHistory()
   const {state,dispatch}= useContext(Usercontext)

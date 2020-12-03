@@ -26,7 +26,7 @@ const Createpost = () => {
                 console.log(err)
             })
     }
-    
+    //this is comment
     useEffect(()=>{
         if(url){
             fetch("/createpost", {

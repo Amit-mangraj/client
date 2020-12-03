@@ -4,7 +4,7 @@ import {Usercontext} from '../../App'
 import { Link, useHistory } from 'react-router-dom';
 import M from 'materialize-css';
 const Signin = () => {
-    const {state,dispatch}= useContext(Usercontext)
+    const {state,dispatch}= useContext(Usercontext)//this is comment
     const history = useHistory()
     const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     const [email, setEmail] = useState("")
